@@ -6,10 +6,13 @@
 			"name": "Constants and enums GRP1", //  GRP1 FINAL
 			"scope": [
 				"punctuation.definition.template-expression", // литерал внутри строки
-				"keyword", // NEW
+				"keyword",
 				"constant.language", // TRUE FALSE NULL etc
 				"variable.language", // THIS
-				"keyword.control" // Ключевые слова
+				"keyword.control", // Ключевые слова
+				// "keyword.operator.expression",
+				// "keyword.operator.new",
+				"keyword.operator"
 			],
 			"settings": {
 				"foreground": "#87afd7"
@@ -53,6 +56,7 @@
 				"meta.object-literal.key", //  Ключи литерала обьекта
 				"entity.other.attribute-name", // HTML Атрибуты
 				"source.json meta.structure.dictionary.json support.type.property-name.json",
+				"source.shell"
 			],
 			"settings": {
 				"foreground": "#87d7d7" // DONE COR FINAL
@@ -86,7 +90,8 @@
 				"markup.changed.git_gutter",
 				"support.type.sys-types",
 				"entity.other.inherited-class",
-				"entity.other.attribute-name.class"
+				"entity.other.attribute-name.class",
+				"support.variable"
 			],
 			"settings": {
 				"foreground": "#afd7af"
@@ -98,6 +103,7 @@
 			// Числа
 			"scope": [
 				"constant.numeric",
+				"keyword.other.unit"
 			],
 			"settings": {
 				"foreground": "#d7d7af" // DONE COR FINAL
@@ -106,7 +112,7 @@
 		{
 			"name": "Constants and enums", // ЧТО из darck + 
 			"scope": [
-				"support.variable" // вот это length отдельно от TS
+				"support.variable.property.js", // вот это length отдельно от TS
 			],
 			"settings": {
 				"foreground": "#d7d7af",
@@ -124,7 +130,8 @@
 				"keyword.other.special-method",
 				"support.constant.handlebars",
 				"source.powershell variable.other.member",
-				"entity.name.operator.custom-literal"
+				"entity.name.operator.custom-literal",
+				"entity.other.attribute-name.pseudo-class"
 			],
 			"settings": {
 				"foreground": "#afafd7"
@@ -158,24 +165,20 @@
 				"support.constant.font-name",
 				"constant.other.color.rgb-value",
 				"constant.other.rgb-value",
-				"support.constant.color"
+				"support.constant.color",
+				"keyword.operator.ternary",
+				"keyword.operator.relational",
+				"keyword.operator.assignment",
+				"keyword.operator.comparison",
+				"keyword.operator.logical",
+				"keyword.operator.arithmetic",
+				"text.html.markdown",
 			],
 			"settings": {
 				"foreground": "#dadada" // DONE COR FINAL
 			}
 		},
 		// group 7 end
-		// group spcial 
-		{
-			"name": "Comment-tail", // GROUP SPECIAL
-			"scope": [
-				"punctuation.definition.comment"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#005f87" // DONE COR FINAL
-			}
-		},
 		{
 			"name": "Escape Characters", // GROUP SPECIAL
 			"scope": [
@@ -217,12 +220,6 @@
 			}
 		},
 		{
-			"scope": "constant.character", /// НЕ ПОНЯТНО ???
-			"settings": {
-				"foreground": "#00ff2a"
-			}
-		},
-		{
 			"name": "Operator, Misc",
 			// Пунктуация точки скобки 
 			"scope": [
@@ -241,6 +238,8 @@
 			// пунктуация {} "" () 
 			"scope": [
 				"punctuation", // пунктуация {} "" () 
+				"meta.property-list",
+				"meta.brace.round.ts"
 			],
 			"settings": {
 				"foreground": "#9e9e9e" // DONE COR FINAL
@@ -260,9 +259,7 @@
 		{
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
-				//	"constant.character",
 				"constant.escape",
-				//	"keyword.other.unit",
 			],
 			"settings": {
 				"foreground": "#3700ff"
@@ -285,7 +282,6 @@
 				"entity.name.method.js"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#82AAFF"
 			}
 		},
@@ -306,7 +302,6 @@
 				"text.html.basic entity.other.attribute-name"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#FFCB6B"
 			}
 		},
@@ -391,7 +386,6 @@
 				"tag.decorator.js punctuation.definition.tag.js"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#ff0000"
 			}
 		},
@@ -401,14 +395,12 @@
 				"source.js constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#ff002b"
 			}
 		},
 		{
 			"name": "Markdown - Plain",
 			"scope": [
-				"text.html.markdown",
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
@@ -433,15 +425,16 @@
 				"foreground": "#65737E"
 			}
 		},
+		// MD фаил
 		{
-			"name": "Markdown - Heading",
+			"name": "Markdown - Heading", // MD DONE
 			"scope": [
 				"markdown.heading",
 				"markup.heading | markup.heading entity.name",
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#afd7af"
 			}
 		},
 		{
@@ -451,7 +444,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#f07178"
+				"foreground": "#afd7af"
 			}
 		},
 		{
@@ -462,7 +455,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#f07178"
+				"foreground": "#afd7af"
 			}
 		},
 		{
@@ -477,7 +470,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#f07178"
+				"foreground": "#afd7af"
 			}
 		},
 		{
@@ -487,7 +480,7 @@
 			],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#F78C6C"
+				"foreground": "#87afd7"
 			}
 		},
 		{
@@ -509,12 +502,12 @@
 			}
 		},
 		{
-			"name": "Markdown - Link",
+			"name": "Markdown - Link", // MD DONE
 			"scope": [
 				"string.other.link.title.markdown"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#87d7d7"
 			}
 		},
 		{
@@ -527,12 +520,12 @@
 			}
 		},
 		{
-			"name": "Markdown - Link Anchor",
+			"name": "Markdown - Link Anchor", // MD DONE
 			"scope": [
 				"constant.other.reference.link.markdown"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#87afd7"
 			}
 		},
 		{
