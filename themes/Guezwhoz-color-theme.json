@@ -26,7 +26,7 @@
 			// Переменные после обьявления
 			"scope": [
 				"variable",
-				//	"string constant.other.placeholder"
+				"string constant.other.placeholder"
 			],
 			"settings": {
 				"foreground": "#87d7d7" // DONE COR FINAL
@@ -69,7 +69,7 @@
 				"punctuation.definition.template-expression",
 			],
 			"settings": {
-				"foreground": "#5f87af" // "#5587ac" //"#5f87ac", // DONE COR FINAL
+				"foreground": "#87afd7" // "#5f87af" // "#5587ac" //"#5f87ac", // DONE COR FINAL
 			}
 		},
 		{
@@ -107,7 +107,7 @@
 				"punctuation.section.embedded",
 			],
 			"settings": {
-				"foreground": "#5f87af" // #5587ac //"#5f87ac" // DONE COR FINAL
+				"foreground": "#87afd7" // "#5fafd7" // "#5f87af" // #5587ac //"#5f87ac" // DONE COR FINAL
 			}
 		},
 		{
@@ -155,7 +155,7 @@
 				"keyword.control",
 			],
 			"settings": {
-				"foreground": "#8786ab" // DONE COR FINAL
+				"foreground": "#87afd7" // "#8786ab" // DONE COR FINAL
 			}
 		},
 		{
@@ -167,7 +167,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#5f87af" //"#5587ac" //"#5f87ac"
+				"foreground": "#87afd7" // "#5fafd7" // "#5f87af" //"#5587ac" //"#5f87ac"
 			}
 		},
 		{
@@ -183,7 +183,7 @@
 				"entity.name.operator.custom-literal"
 			],
 			"settings": {
-				"foreground": "#af87af" // "#875fd7" // "#82AAFF"
+				"foreground": "#afafd7" // "#875fd7" // "#82AAFF"
 			}
 		},
 		{
@@ -191,7 +191,7 @@
 			// переменные внутри выражения
 			// 
 			"scope": [
-				"meta.block variable.other",
+				//	"meta.block variable.other",
 				"support.constant" // JSON 
 			],
 			"settings": {
@@ -216,7 +216,7 @@
 				"constant.numeric",
 			],
 			"settings": {
-				"foreground": "#d6d7b3" // DONE COR FINAL
+				"foreground": "#d7d7af" // DONE COR FINAL
 			}
 		},
 		{
@@ -237,7 +237,7 @@
 				"constant.language",
 			],
 			"settings": {
-				"foreground": "#5f87af" //"#5587ac" // "#5f87ac"
+				"foreground": "#8786ab" // "#5fafd7" // "#5f87af" //"#5587ac" // "#5f87ac"
 			}
 		},
 		{
@@ -290,7 +290,7 @@
 				"entity.other.inherited-class",
 			],
 			"settings": {
-				"foreground": "#afd7af"
+				"foreground": "#afd7af" //  "#00d75f" // "#afd7af"
 			}
 		},
 		{
@@ -300,7 +300,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#afd7af"
+				"foreground": "#afd7af" // "#00d75f" // "#afd7af"
 			}
 		},
 		{
@@ -335,7 +335,7 @@
 				"variable.language"
 			],
 			"settings": {
-				"foreground": "#5f87af" // #5f87af // "#5f87ac"
+				"foreground": "#8786ab" //"#5fafd7" // "#5f87af" // #5f87af // "#5f87ac"
 			}
 		},
 		{
