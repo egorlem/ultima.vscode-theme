@@ -3,35 +3,192 @@
 	"type": "dark",
 	"tokenColors": [
 		{
-			"name": "Comment", // GROUP 8
+			"name": "Constants and enums GRP1", //  GRP1 FINAL
 			"scope": [
-				"comment",
+				"punctuation.definition.template-expression", // литерал внутри строки
+				"keyword",
+				"constant.language", // TRUE FALSE NULL etc
+				"variable.language", // THIS
+				"keyword.control", // Ключевые слова
+				// "keyword.operator.expression",
+				// "keyword.operator.new",
+				"keyword.operator"
 			],
 			"settings": {
-				"foreground": "#808080" // DONE COR FINAL
+				"foreground": "#87afd7"
 			}
 		},
 		{
-			"name": "Comment-tail", // GROUP SPECIAL
+			"name": "Keyword, Storage", // GROUP 1A DONE 
+			// let, const, type, etc специальные слова
 			"scope": [
-				"punctuation.definition.comment"
+				"storage",
+				"storage.modifier",
+				"punctuation.section.embedded",
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#005f87" // DONE COR FINAL
+				"foreground": "#87afd7"
 			}
 		},
 		{
-			"name": "Variables", // GROUP 2
+			"name": "Tag", // GROUP 1A 
+			// HTML теги
+			"scope": [
+				"entity.name.tag",
+				"meta.tag.sgml",
+				"markup.deleted.git_gutter"
+			],
+			"settings": {
+				"foreground": "#87afd7"
+			}
+		},
+		// group 1 end
+		{
+			"name": "Variables GRP2", // GRP2 FINAL
 			// Переменные после обьявления
 			"scope": [
 				"variable",
-				//	"string constant.other.placeholder"
+				"variable.parameter", // Параметры функции
+				"support.constant", // JSON 
+				"support.constant.media-type",
+				"support.constant.media",
+				"string constant.other.placeholder",
+				"meta.object-literal.key", //  Ключи литерала обьекта
+				"entity.other.attribute-name", // HTML Атрибуты
+				"source.json meta.structure.dictionary.json support.type.property-name.json",
+				"source.shell"
 			],
 			"settings": {
 				"foreground": "#87d7d7" // DONE COR FINAL
 			}
 		},
+		{
+			"name": "CSS Class and Support",
+			"scope": [
+				"source.css support.type.property-name",
+				"source.sass support.type.property-name",
+				"source.scss support.type.property-name",
+				"source.less support.type.property-name",
+				"source.stylus support.type.property-name",
+				"source.postcss support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#87d7d7"
+			}
+		},
+		// group 2 end
+		{
+			"name": "Class, Support", // GROUP 5
+			// Кассы все в куче и TS
+			"scope": [
+				"entity.name",
+				"support.type",
+				"support.class",
+				"support.orther.namespace.use.php",
+				"meta.use.php",
+				"support.other.namespace.php",
+				"markup.changed.git_gutter",
+				"support.type.sys-types",
+				"entity.other.inherited-class",
+				"entity.other.attribute-name.class",
+				"support.variable"
+			],
+			"settings": {
+				"foreground": "#afd7af"
+			}
+		},
+		// group 3 end
+		{
+			"name": "Number", // GROUP 4
+			// Числа
+			"scope": [
+				"constant.numeric",
+				"keyword.other.unit"
+			],
+			"settings": {
+				"foreground": "#d7d7af" // DONE COR FINAL
+			}
+		},
+		{
+			"name": "Constants and enums", // ЧТО из darck + 
+			"scope": [
+				"support.variable.property.js", // вот это length отдельно от TS
+			],
+			"settings": {
+				"foreground": "#d7d7af",
+			}
+		},
+		// group 4 end
+		// group 5
+		{
+			"name": "Function, Special Method", // GRP5
+			"scope": [
+				"entity.name.function",
+				"meta.function-call",
+				"variable.function",
+				"support.function",
+				"keyword.other.special-method",
+				"support.constant.handlebars",
+				"source.powershell variable.other.member",
+				"entity.name.operator.custom-literal",
+				"entity.other.attribute-name.pseudo-class"
+			],
+			"settings": {
+				"foreground": "#afafd7"
+			}
+		},
+		// group 5 end
+		// group 6 
+		{
+			"name": "Operator, Misc", // GRP6
+			// Пунктуация точки скобки 
+			"scope": [
+				"punctuation.definition.tag",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"comment", /// коментарии
+			],
+			"settings": {
+				"foreground": "#808080" // "#89e3ff" 
+			}
+		},
+		// group 6 end 
+		// group 7
+		{
+			"name": "String", // GROUP 7
+			// Строки
+			"scope": [
+				"string",
+				"meta.tag", // текст внутри html
+				"support.constant.property-value",
+				"support.constant.font-name",
+				"constant.other.color.rgb-value",
+				"constant.other.rgb-value",
+				"support.constant.color",
+				"keyword.operator.ternary",
+				"keyword.operator.relational",
+				"keyword.operator.assignment",
+				"keyword.operator.comparison",
+				"keyword.operator.logical",
+				"keyword.operator.arithmetic",
+				"text.html.markdown",
+			],
+			"settings": {
+				"foreground": "#dadada" // DONE COR FINAL
+			}
+		},
+		// group 7 end
+		{
+			"name": "Escape Characters", // GROUP SPECIAL
+			"scope": [
+				"constant.character.escape"
+			],
+			"settings": {
+				"foreground": "#5fffaf"
+			}
+		},
+		// GROUP END
 		{
 			"name": "Colors", // ??? НЕ ЯСНО
 			"scope": [
@@ -59,62 +216,13 @@
 				"meta.definition.variable.name",
 			],
 			"settings": {
-				"foreground": "#cc00ff",
-			}
-		},
-		{
-			"name": "Constants and enums", // GROUP 1 
-			// литерал внутри строки
-			"scope": [
-				"punctuation.definition.template-expression",
-			],
-			"settings": {
-				"foreground": "#5f87af" // "#5587ac" //"#5f87ac", // DONE COR FINAL
-			}
-		},
-		{
-			"name": "Constants and enums", // ЧТО из darck + 
-			"scope": [
-				"support.variable" // вот это length отдельно от TS
-			],
-			"settings": {
-				"foreground": "#d6d7b3",
-			}
-		},
-		{
-			"name": "Object keys, TS grammar specific", // GROUP 2
-			"scope": [
-				//  Ключи литерала обьекта
-				"meta.object-literal.key"
-			],
-			"settings": {
-				"foreground": "#87d7d7" // DONE COR FINAL
-			}
-		},
-		{
-			"scope": "constant.character", /// НЕ ПОНЯТНО ???
-			"settings": {
-				"foreground": "#ff008c"
-			}
-		},
-		{
-			"name": "Keyword, Storage", // GROUP 1 
-			// let, const, type, etc специальные слова
-			"scope": [
-				"keyword", // NEW
-				"storage",
-				"storage.modifier",
-				"punctuation.section.embedded",
-			],
-			"settings": {
-				"foreground": "#5f87af" // #5587ac //"#5f87ac" // DONE COR FINAL
+				"foreground": "#00ff62",
 			}
 		},
 		{
 			"name": "Operator, Misc",
 			// Пунктуация точки скобки 
 			"scope": [
-				"keyword.control",
 				"constant.other.color", // ключи в обьектах
 				"punctuation", // пунктуация {} "" ()  
 				"punctuation.separator.inheritance.php",
@@ -126,76 +234,15 @@
 			}
 		},
 		{
-			"name": "Operator, Misc", // GROUP 8
-			// Пунктуация точки скобки 
-			"scope": [
-				"punctuation.definition.tag",
-				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
-			],
-			"settings": {
-				"foreground": "#808080" // "#89e3ff" 
-			}
-		},
-		{
 			"name": "Operator, Misc", // GROUP 4
 			// пунктуация {} "" () 
 			"scope": [
 				"punctuation", // пунктуация {} "" () 
+				"meta.property-list",
+				"meta.brace.round.ts"
 			],
 			"settings": {
 				"foreground": "#9e9e9e" // DONE COR FINAL
-			}
-		},
-		{
-			"name": "Keywords, Global", // GROUP 3
-			// Клюечевые слова
-			"scope": [
-				"keyword.control",
-			],
-			"settings": {
-				"foreground": "#8786ab" // DONE COR FINAL
-			}
-		},
-		{
-			"name": "Tag", // GROUP 1 
-			// HTML теги
-			"scope": [
-				"entity.name.tag",
-				"meta.tag.sgml",
-				"markup.deleted.git_gutter"
-			],
-			"settings": {
-				"foreground": "#5f87af" //"#5587ac" //"#5f87ac"
-			}
-		},
-		{
-			"name": "Function, Special Method", // ??? 
-			"scope": [
-				"entity.name.function",
-				"meta.function-call",
-				"variable.function",
-				"support.function",
-				"keyword.other.special-method",
-				"support.constant.handlebars",
-				"source.powershell variable.other.member",
-				"entity.name.operator.custom-literal"
-			],
-			"settings": {
-				"foreground": "#af87af" // "#875fd7" // "#82AAFF"
-			}
-		},
-		{
-			"name": "Block Level Variables", // GROUP 2
-			// переменные внутри выражения
-			// 
-			"scope": [
-				"meta.block variable.other",
-				"support.constant" // JSON 
-			],
-			"settings": {
-				"foreground": "#87d7d7" // DONE COR FINAL
 			}
 		},
 		{
@@ -210,111 +257,12 @@
 			}
 		},
 		{
-			"name": "Number", // GROUP 6
-			// Числа
-			"scope": [
-				"constant.numeric",
-			],
-			"settings": {
-				"foreground": "#d6d7b3" // DONE COR FINAL
-			}
-		},
-		{
 			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
-				//	"constant.character",
 				"constant.escape",
-				//	"keyword.other.unit",
 			],
 			"settings": {
 				"foreground": "#3700ff"
-			}
-		},
-		{
-			"name": "True False", // GROUP 1
-			// True False Null undefined
-			"scope": [
-				"constant.language",
-			],
-			"settings": {
-				"foreground": "#5f87af" //"#5587ac" // "#5f87ac"
-			}
-		},
-		{
-			"name": "Function Argument", // GROUP 2
-			// Параметры функции
-			"scope": [
-				"variable.parameter",
-			],
-			"settings": {
-				"foreground": "#87d7d7" // DONE COR FINAL
-			}
-		},
-		{
-			"name": "Symbols, Inherited Class, Markup Heading",
-			"scope": [
-				"constant.other.symbol",
-				"constant.other.key",
-				"entity.other.inherited-class",
-				"markup.heading",
-				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
-			],
-			"settings": {
-				"foreground": "#ff00d9"
-			}
-		},
-		{
-			"name": "String", // GROUP 7
-			// Строки
-			"scope": [
-				"string",
-				"meta.tag" // текст внутри html
-			],
-			"settings": {
-				"foreground": "#dadada" // DONE COR FINAL
-			}
-		},
-		{
-			"name": "Class, Support", // GROUP 5
-			// Кассы все в куче и TS
-			"scope": [
-				"entity.name",
-				"support.type",
-				"support.class",
-				"support.orther.namespace.use.php",
-				"meta.use.php",
-				"support.other.namespace.php",
-				"markup.changed.git_gutter",
-				"support.type.sys-types",
-				"entity.other.inherited-class",
-			],
-			"settings": {
-				"foreground": "#afd7af"
-			}
-		},
-		{
-			"name": "Entity Types", // GROUP 5
-			// Типы в TS
-			"scope": [
-				"support.type"
-			],
-			"settings": {
-				"foreground": "#afd7af"
-			}
-		},
-		{
-			"name": "CSS Class and Support",
-			"scope": [
-				"source.css support.type.property-name",
-				"source.sass support.type.property-name",
-				"source.scss support.type.property-name",
-				"source.less support.type.property-name",
-				"source.stylus support.type.property-name",
-				"source.postcss support.type.property-name"
-			],
-			"settings": {
-				"foreground": "#ff0000"
 			}
 		},
 		{
@@ -329,22 +277,11 @@
 			}
 		},
 		{
-			"name": "Language methods", // GROUP 1
-			// THIS
-			"scope": [
-				"variable.language"
-			],
-			"settings": {
-				"foreground": "#5f87af" // #5f87af // "#5f87ac"
-			}
-		},
-		{
 			"name": "entity.name.method.js",
 			"scope": [
 				"entity.name.method.js"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#82AAFF"
 			}
 		},
@@ -355,17 +292,7 @@
 				"variable.function.constructor"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
-			}
-		},
-		{
-			"name": "Attributes", // GRPOP 2
-			// атрибуты в HTML
-			"scope": [
-				"entity.other.attribute-name"
-			],
-			"settings": {
-				"foreground": "#87d7d7"
+				"foreground": "#ff0037"
 			}
 		},
 		{
@@ -373,16 +300,6 @@
 			"scope": [
 				"text.html.basic entity.other.attribute-name.html",
 				"text.html.basic entity.other.attribute-name"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#FFCB6B"
-			}
-		},
-		{
-			"name": "CSS Classes",
-			"scope": [
-				"entity.other.attribute-name.class"
 			],
 			"settings": {
 				"foreground": "#FFCB6B"
@@ -434,15 +351,6 @@
 			}
 		},
 		{
-			"name": "Escape Characters", // GROUP SPECIAL
-			"scope": [
-				"constant.character.escape"
-			],
-			"settings": {
-				"foreground": "#5fffaf"
-			}
-		},
-		{
 			"scope": [
 				"constant.character.character-class.regexp",
 				"constant.other.character-class.set.regexp",
@@ -478,8 +386,7 @@
 				"tag.decorator.js punctuation.definition.tag.js"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#82AAFF"
+				"foreground": "#ff0000"
 			}
 		},
 		{
@@ -488,95 +395,12 @@
 				"source.js constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#FF5370"
-			}
-		},
-		{
-			"name": "JSON Key - Level 0",
-			"scope": [
-				"source.json meta.structure.dictionary.json support.type.property-name.json"
-			],
-			"settings": {
-				"foreground": "#C792EA"
-			}
-		},
-		{
-			"name": "JSON Key - Level 1",
-			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-			],
-			"settings": {
-				"foreground": "#FFCB6B"
-			}
-		},
-		{
-			"name": "JSON Key - Level 2",
-			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-			],
-			"settings": {
-				"foreground": "#F78C6C"
-			}
-		},
-		{
-			"name": "JSON Key - Level 3",
-			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-			],
-			"settings": {
-				"foreground": "#FF5370"
-			}
-		},
-		{
-			"name": "JSON Key - Level 4",
-			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-			],
-			"settings": {
-				"foreground": "#C17E70"
-			}
-		},
-		{
-			"name": "JSON Key - Level 5",
-			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-			],
-			"settings": {
-				"foreground": "#82AAFF"
-			}
-		},
-		{
-			"name": "JSON Key - Level 6",
-			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-			],
-			"settings": {
-				"foreground": "#f07178"
-			}
-		},
-		{
-			"name": "JSON Key - Level 7",
-			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-			],
-			"settings": {
-				"foreground": "#C792EA"
-			}
-		},
-		{
-			"name": "JSON Key - Level 8",
-			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-			],
-			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#ff002b"
 			}
 		},
 		{
 			"name": "Markdown - Plain",
 			"scope": [
-				"text.html.markdown",
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
@@ -601,15 +425,16 @@
 				"foreground": "#65737E"
 			}
 		},
+		// MD фаил
 		{
-			"name": "Markdown - Heading",
+			"name": "Markdown - Heading", // MD DONE
 			"scope": [
 				"markdown.heading",
 				"markup.heading | markup.heading entity.name",
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#afd7af"
 			}
 		},
 		{
@@ -619,7 +444,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#f07178"
+				"foreground": "#afd7af"
 			}
 		},
 		{
@@ -630,7 +455,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#f07178"
+				"foreground": "#afd7af"
 			}
 		},
 		{
@@ -645,7 +470,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#f07178"
+				"foreground": "#afd7af"
 			}
 		},
 		{
@@ -655,7 +480,7 @@
 			],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#F78C6C"
+				"foreground": "#87afd7"
 			}
 		},
 		{
@@ -677,12 +502,12 @@
 			}
 		},
 		{
-			"name": "Markdown - Link",
+			"name": "Markdown - Link", // MD DONE
 			"scope": [
 				"string.other.link.title.markdown"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#87d7d7"
 			}
 		},
 		{
@@ -695,12 +520,12 @@
 			}
 		},
 		{
-			"name": "Markdown - Link Anchor",
+			"name": "Markdown - Link Anchor", // MD DONE
 			"scope": [
 				"constant.other.reference.link.markdown"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#87afd7"
 			}
 		},
 		{
