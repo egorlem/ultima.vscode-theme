@@ -5,6 +5,7 @@
 		{
 			"name": "Constants (Group 1)",
 			"scope": [
+				"support.function.builtin",
 				"source.js constant.other.object.key.js string.unquoted.label.js",
 				"punctuation.separator.dictionary.key-value",
 				"punctuation.separator.key-value",
