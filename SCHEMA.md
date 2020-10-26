@@ -17,7 +17,7 @@ return #8787af
 
 #8787af term 103 COR #8786ab //// OK OK OK !!!! фиолетовый
 #87d7d7 retm 116 COR #54d8d6 /// ALL НОВЫЙ! 116 новый #87d7d7
-#5f87af term 67 COR #5f87ac // STORAGE // function, let, const, etc синий
+#5f87af term 67 COR  #5f87ac // STORAGE // function, let, const, etc синий
 #afd7af term 151 COR #acd8b3
 #d7d7af term 187 COR #d6d7b3 NUMBER
 
@@ -45,7 +45,7 @@ blink
 reverse
 italic
 strike
-
+module test
 == Environment colors
 #1c1c1c main background term 234
 #eeeeee main foreground term 255
