@@ -1,14 +1,19 @@
 {
-  "name": "Guezwhoz",
+  "name": "guezwhoz",
   "displayName": "guezwhoz",
   "description": "Guezwhoz dark theme",
-  "version": "0.0.1",
+  "publisher": "guezwhoz-schema",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.50.0"
   },
   "categories": [
     "Themes"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guesswhozzz/guezwhoz-vscode-theme.git"
+  },
   "contributes": {
     "themes": [
       {
