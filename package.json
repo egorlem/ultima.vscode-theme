@@ -1,21 +1,33 @@
 {
-    "name": "Guezwhoz",
-    "displayName": "guezwhoz",
-    "description": "Guezwhoz dark theme",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.50.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Guezwhoz",
-                "uiTheme": "vs-dark",
-                "path": "./themes/guezwhoz-color-theme.json"
-            }
-        ]
-    }
+  "name": "guezwhoz",
+  "displayName": "guezwhoz",
+  "description": "Guezwhoz dark theme",
+  "publisher": "guezwhoz-schema",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guesswhozzz/guezwhoz-vscode-theme.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "Guezwhoz",
+        "label": "Guezwhoz",
+        "uiTheme": "vs-dark",
+        "path": "./themes/guezwhoz-color-theme.json"
+      },
+      {
+        "id": "Guezwhoz (Dimmed)",
+        "label": "Guezwhoz (Dimmed)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/guezwhoz-dim-color-theme.json"
+      }
+    ]
+  }
 }
