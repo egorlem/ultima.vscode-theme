@@ -15,4 +15,4 @@ function makeItColorful(srt) {
 }
 
 const text = makeItColorful("make it colorful")(32);
-console.log(text)
+console.log(text);
