@@ -11,6 +11,11 @@
   "categories": [
     "Themes"
   ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#005f87",
+    "theme": "dark"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/guesswhozzz/guezwhoz-vscode-theme.git"

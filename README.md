@@ -4,12 +4,16 @@
 
 ---
 
-### Installation
+## Installation
+
 - Open the Extensions sidebar in VS Code "[ Windows | Linux `Ctrl + P` ] [ MacOS `⌘ + P` ] "
 - Search for Guezhowz Theme "`ext install Guezwhoz Theme`"
 - Click `Install`
 - Open the Command Palette "[ Windows | Linux `Ctrl + Shift + P` ] [ MacOS `⇧ + ⌘ + P` ]"
 - Select Preferences: Color Theme and choose a `Guezwhoz Theme (Variant)`.
+
+**You can also install a Theme from [Releases page](https://github.com/guesswhozzz/guezwhoz-vscode-theme/releases) by following the [Install from a VSIX instructions](https://code.visualstudio.com/docs/editor/extension-gallery#_install-from-a-vsix). The easiest way is through the command line:**
+`code --install-extension PowerShell-<version>.vsix`
 
 ---
 
@@ -17,7 +21,8 @@
 
 ---
 
-### Recommended Settings
+## Recommended Settings
+
 ```JSON
 {
   "editor.tabSize": 2,
@@ -31,5 +36,7 @@
   "editor.fontLigatures": true,
 }
 ```
+
 ---
+
 License [MIT](https://github.com/guesswhozzz/guezwhoz-vscode-theme/blob/master/LICENSE) © [Egor Lem](https://github.com/guesswhozzz)
