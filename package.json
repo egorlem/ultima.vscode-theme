@@ -3,7 +3,7 @@
   "displayName": "Guezwhoz Theme",
   "description": "Dark vscode theme based on cool palette.",
   "publisher": "guezwhoz-schema",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "SEE LICENSE IN LICENSE.md",
   "engines": {
     "vscode": "^1.50.0"
