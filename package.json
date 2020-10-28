@@ -3,7 +3,7 @@
   "displayName": "Guezwhoz Theme",
   "description": "Dark vscode theme based on cool palette.",
   "publisher": "guezwhoz-schema",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "SEE LICENSE IN LICENSE.md",
   "engines": {
     "vscode": "^1.50.0"
@@ -36,7 +36,7 @@
         "id": "Guezwhoz (Dimmed)",
         "label": "Guezwhoz (Dimmed)",
         "uiTheme": "vs-dark",
-        "path": "./themes/Guezwhoz-dim-color-theme.json"
+        "path": "./themes/guezwhoz-dim-color-theme.json"
       }
     ]
   },
