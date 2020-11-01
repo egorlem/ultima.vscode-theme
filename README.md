@@ -6,10 +6,10 @@
 
 ## Installation
 
-- Open the Extensions sidebar in VS Code "[ Windows | Linux `Ctrl + P` ] [ MacOS `⌘ + P` ] "
+- Open the Extensions sidebar in VS Code "[ Windows | Linux `Ctrl + P` ] [ MacOS `⌘ + P` ]"
 - Search for Guezhowz Theme "`ext install Guezwhoz Theme`"
 - Click `Install`
-- Open the Command Palette "[ Windows | Linux `Ctrl + Shift + P` ] [ MacOS `⇧ + ⌘ + P` ]"
+- Open the Command Palette "[ Windows | Linux `Ctrl + K` `Ctrl + P` ] [ MacOS `⌘ + K` `⌘ + T` ]"
 - Select Preferences: Color Theme and choose a `Guezwhoz Theme (Variant)`.
 
 **You can also install a Theme from [Releases page](https://github.com/guesswhozzz/guezwhoz-vscode-theme/releases) by following the [Install from a VSIX instructions](https://code.visualstudio.com/docs/editor/extension-gallery#_install-from-a-vsix). The easiest way is through the command line:**
@@ -17,13 +17,15 @@
 
 ---
 
+## Example
+
 ![vscode-theme-demo](https://github.com/guesswhozzz/guezwhoz-vscode-theme/blob/master/demos/jsdemocode.png?raw=true)
 
 ---
 
 ## Recommended Settings
 
-```JSON
+```json
 {
   "editor.tabSize": 2,
   "editor.lineHeight": 24,
@@ -33,7 +35,7 @@
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorStyle": "line",
   "editor.fontFamily": "Fira Code, Inconsolata",
-  "editor.fontLigatures": true,
+  "editor.fontLigatures": true
 }
 ```
 

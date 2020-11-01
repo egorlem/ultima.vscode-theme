@@ -5,7 +5,6 @@
 		{
 			"name": "Constants (Group 1)",
 			"scope": [
-				"support.function.builtin",
 				"source.js constant.other.object.key.js string.unquoted.label.js",
 				"punctuation.separator.dictionary.key-value",
 				"punctuation.separator.key-value",
@@ -65,6 +64,7 @@
 		{
 			"name": "Variables, Object (Group 2)",
 			"scope": [
+				"entity.name.tag.yaml",
 				"variable",
 				"variable.parameter",
 				"support.constant",
@@ -213,6 +213,7 @@
 		{
 			"name": "Function, Special Method (Group 5)",
 			"scope": [
+				"support.function.builtin",
 				"entity.name.function",
 				"meta.function-call",
 				"variable.function",
@@ -334,23 +335,30 @@
 		},
 	],
 	"colors": {
-		"button.background": "#005f87",
+		"gitDecoration.untrackedResourceForeground": "#5fafd7",
+		"gitDecoration.modifiedResourceForeground": "#5fd7d7",
+		"gitDecoration.addedResourceForeground": "#87d7af",
+		"gitDecoration.stageModifiedResourceForeground": "#87d7d7",
+		"editorGutter.modifiedBackground": "#5fd7d779",
+		"editorGutter.addedBackground": "#87d7af7c",
+		"editorGutter.deletedBackground": "#d75f5f",
+		"button.background": "#005f87", // old color
 		"settings.checkboxBackground": "#005f87",
 		"settings.dropdownBorder": "#005f87",
 		"focusBorder": "#005f87",
 		"editor.foreground": "#dadada",
 		"button.foreground": "#dadada",
 		"editor.background": "#1c1c1c",
-		"inputValidation.errorBorder": "#d7005f",
-		"editorError.border": "#d7005f",
+		"inputValidation.errorBorder": "#d70000",
+		"editorError.border": "#d70000",
 		"panel.background": "#1c1c1c",
-		"editorRuler.foreground": "#333333",
-		"statusBar.background": "#005f87",
+		"editorRuler.foreground": "#303030", // "#333333",
+		"statusBar.background": "#005f87", // "#005f5f",
 		"statusBar.foreground": "#eeeeee",
-		"statusBar.border": "#005f87",
+		"statusBar.border": "#005f5f",
 		"statusBar.noFolderBackground": "#1c1c1c",
 		"statusBar.noFolderForeground": "#eeeeee",
-		"statusBar.noFolderBorder": "#333333",
+		"statusBar.noFolderBorder": "#303030",
 		"statusBar.debuggingBackground": "#5f5fd7",
 		"statusBar.debuggingBorder": "#5f5fd7",
 		"activityBarBadge.background": "#005f87",
@@ -360,7 +368,7 @@
 		"editorBracketMatch.border": "#5fafd7",
 		"editor.wordHighlightBackground": "#303030",
 		"terminal.ansiBlack": "#080808",
-		"terminal.ansiRed": "#d7005f",
+		"terminal.ansiRed": "#d70000",
 		"terminal.ansiGreen": "#87d7af",
 		"terminal.ansiYellow": "#d7d787",
 		"terminal.ansiBlue": "#5fafd7",
@@ -374,6 +382,6 @@
 		"terminal.ansiBrightBlue": "#87afd7",
 		"terminal.ansiBrightMagenta": "#afafd7",
 		"terminal.ansiBrightCyan": "#87d7d7",
-		"terminal.ansiBrightWhite": "#dadada"
+		"terminal.ansiBrightWhite": "#dadada",
 	},
 }

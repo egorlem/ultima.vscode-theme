@@ -1,10 +1,10 @@
 {
-  "name": "guezwhoz-vscode-theme",
-  "displayName": "Guezwhoz Theme",
+  "name": "guezwhoz-vscode-theme-dev",
+  "displayName": "Guezwhoz Theme (Dev)",
   "description": "Dark vscode theme based on cool palette.",
   "publisher": "guezwhoz-schema",
-  "version": "1.0.3",
-  "license": "SEE LICENSE IN LICENSE.md",
+  "version": "1.1.2",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.50.0"
   },
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/guesswhozzz/guezwhoz-vscode-theme.git"
+    "url": "git+https://github.com/guesswhozzz/guezwhoz-vscode-theme.git"
   },
   "keywords": [
     "Theme",
@@ -28,13 +28,13 @@
     "themes": [
       {
         "id": "Guezwhoz",
-        "label": "Guezwhoz",
+        "label": "Guezwhoz (Base / Dev)",
         "uiTheme": "vs-dark",
         "path": "./themes/guezwhoz-base-color-theme.json"
       },
       {
         "id": "Guezwhoz (Dimmed)",
-        "label": "Guezwhoz (Dimmed)",
+        "label": "Guezwhoz (Dimmed / Dev)",
         "uiTheme": "vs-dark",
         "path": "./themes/guezwhoz-dim-color-theme.json"
       }
