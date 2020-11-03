@@ -25,9 +25,9 @@ You can also install a Theme from [Releases page](https://github.com/guesswhozzz
 
 ---
 
-## Example
+## Preview
 
-![vscode-theme-demo](https://github.com/guesswhozzz/guezwhoz-vscode-theme/blob/develop/demos/jsdemocode.png?raw=true)
+![vscode-theme-demo](https://github.com/guesswhozzz/guezwhoz-scheme/blob/main/demos/vscode-theme-js-demo-min.png?raw=true)
 
 ---
 
