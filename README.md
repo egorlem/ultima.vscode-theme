@@ -1,12 +1,12 @@
 # Guezwhoz schema for Visual Studio Code
 
-#### A Visual Studio Code dark theme based on cool palette. Theme comes in two versions - base and dimmed.
+#### A Visual Studio Code dark theme based on cool palette.
 
 ---
 
 ## Installation
 
-### Installation from Visual Studio Marketplace
+### Install from the Visual Studio Marketplace
 
 1. Open the Extensions sidebar in VS Code
    "[ Windows | Linux `Ctrl + P` ] [ MacOS `⌘ + P` ]"
@@ -18,7 +18,7 @@
 
 5. Select Preferences: Color Theme and choose a `Guezwhoz Theme (Variant)`.
 
-### Monual Installation
+### Install manually
 
 You can also install a Theme from [Releases page](https://github.com/guesswhozzz/guezwhoz-vscode-theme/releases) by following the [Install from a VSIX instructions](https://code.visualstudio.com/docs/editor/extension-gallery#_install-from-a-vsix). The easiest way is through the command line:
 `code --install-extension PowerShell-<version>.vsix`

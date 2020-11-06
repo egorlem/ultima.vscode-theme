@@ -128,7 +128,9 @@
         "support.type.sys-types",
         "entity.other.inherited-class",
         "entity.other.attribute-name.class",
-        "support.variable.property.js"
+        "support.variable.property.js",
+        "support.constant.json.js",
+        "keyword.operator.type.annotation"
       ],
       "settings": {
         "foreground": "#87d7af"
@@ -226,7 +228,7 @@
         "string.interpolated.dollar.shell"
       ],
       "settings": {
-        "foreground": "#8787d7"
+        "foreground": "#8a8acf"
       }
     },
     {
@@ -336,10 +338,10 @@
     },
     {
       "scope": [
-        "entity.name.type.instance.jsdoc"
+        "punctuation.definition.bracket.curly"
       ],
       "settings": {
-        "foreground": "#afd7af"
+        "foreground": "#87d7af"
       }
     },
     {
@@ -418,7 +420,7 @@
     "terminal.ansiGreen": "#87d7af",
     "terminal.ansiYellow": "#d7d787",
     "terminal.ansiBlue": "#5fafd7",
-    "terminal.ansiMagenta": "#5f5fd7",
+    "terminal.ansiMagenta": "#8a8acf", // 
     "terminal.ansiCyan": "#5fd7d7",
     "terminal.ansiWhite": "#dadada",
     "terminal.ansiBrightBlack": "#8a8a8a",
@@ -426,7 +428,7 @@
     "terminal.ansiBrightGreen": "#afd7af",
     "terminal.ansiBrightYellow": "#d7d7af",
     "terminal.ansiBrightBlue": "#87afd7",
-    "terminal.ansiBrightMagenta": "#afafd7",
+    "terminal.ansiBrightMagenta": "#afafd7", // 
     "terminal.ansiBrightCyan": "#87d7d7",
     "terminal.ansiBrightWhite": "#dadada",
   },

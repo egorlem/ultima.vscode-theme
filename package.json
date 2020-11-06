@@ -1,9 +1,9 @@
 {
-  "name": "guezwhoz-vscode-theme-dev",
-  "displayName": "Guezwhoz Theme (Dev)",
+  "name": "guezwhoz-vscode-theme",
+  "displayName": "Guezwhoz Theme",
   "description": "Dark vscode theme based on cool palette.",
   "publisher": "guezwhoz-schema",
-  "version": "1.1.4",
+  "version": "1.1.0",
   "license": "MIT",
   "engines": {
     "vscode": "^1.50.0"
@@ -13,7 +13,7 @@
   ],
   "icon": "icon.png",
   "galleryBanner": {
-    "color": "#005f87",
+    "color": "#005f5f",
     "theme": "dark"
   },
   "repository": {
@@ -28,15 +28,9 @@
     "themes": [
       {
         "id": "Guezwhoz",
-        "label": "Guezwhoz (Base / Dev)",
+        "label": "Guezwhoz (Main)",
         "uiTheme": "vs-dark",
         "path": "./themes/guezwhoz-base-color-theme.json"
-      },
-      {
-        "id": "Guezwhoz (Dimmed)",
-        "label": "Guezwhoz (Dimmed / Dev)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/guezwhoz-dim-color-theme.json"
       }
     ],
     "iconThemes": [
