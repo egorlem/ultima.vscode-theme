@@ -14,7 +14,7 @@
         "constant.language",
         "variable.language",
         "keyword.control",
-        "keyword.operator"
+        "keyword.operator",
       ],
       "settings": {
         "foreground": "#5fafd7"
@@ -73,7 +73,7 @@
         "string constant.other.placeholder",
         "meta.object-literal.key",
         "entity.other.attribute-name",
-        "source.json meta.structure.dictionary.json support.type.property-name.json",
+        "support.type.property-name.json"
       ],
       "settings": {
         "foreground": "#5fd7d7"
