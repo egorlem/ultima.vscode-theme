@@ -21,7 +21,7 @@
 ### Install manually
 
 You can also install a Theme from [Releases page](https://github.com/guesswhozzz/guezwhoz-vscode-theme/releases) by following the [Install from a VSIX instructions](https://code.visualstudio.com/docs/editor/extension-gallery#_install-from-a-vsix). The easiest way is through the command line:
-`code --install-extension PowerShell-<version>.vsix`
+`code --install-extension guezwhoz-vscode-theme-<version>.vsix`
 
 ---
 

@@ -416,7 +416,7 @@
     "editorBracketMatch.border": "#5fafd7",
     "editor.wordHighlightBackground": "#303030",
     "terminal.ansiBlack": "#080808",
-    "terminal.ansiRed": "#d70000",
+    "terminal.ansiRed": "#ff5f5f",
     "terminal.ansiGreen": "#87d7af",
     "terminal.ansiYellow": "#d7d787",
     "terminal.ansiBlue": "#5fafd7",
