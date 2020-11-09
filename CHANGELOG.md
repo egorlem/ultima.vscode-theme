@@ -1,7 +1,6 @@
 # Change Log
 
-## 1.1.0 (2020-11-08)
-
+## 1.1.7 (2020-11-09)
 - Add git status color scheme
 - Add interface colors
 - Add single colors for .json, .yaml, ini
