@@ -313,7 +313,7 @@
         "markup.deleted"
       ],
       "settings": {
-        "foreground": "#d75f5f"
+        "foreground": "#ff5f5f"
       }
     },
     {
@@ -398,7 +398,7 @@
     "editor.foreground": "#dadada",
     "button.foreground": "#dadada",
     "editor.background": "#1c1c1c",
-    "editorError.border": "#d70000",
+    "editorError.border": "#ff5f5f",
     "panel.background": "#1c1c1c",
     "editorRuler.foreground": "#303030", // "#333333",
     "statusBar.background": "#005f5f", // "#005f5f",
