@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.1.8 (2020-11-18)
+- Change magenta color
+
 ## 1.1.7 (2020-11-09)
 - Add git status color scheme
 - Add interface colors
