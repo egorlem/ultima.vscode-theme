@@ -3,7 +3,7 @@
   "displayName": "Guezwhoz Theme",
   "description": "Dark vscode theme based on cool palette.",
   "publisher": "guezwhoz-schema",
-  "version": "1.1.8",
+  "version": "1.2.0",
   "license": "MIT",
   "engines": {
     "vscode": "^1.50.0"
@@ -28,7 +28,7 @@
     "themes": [
       {
         "id": "Guezwhoz",
-        "label": "Guezwhoz (Main)",
+        "label": "Guezwhoz (Main/DEV)",
         "uiTheme": "vs-dark",
         "path": "./themes/guezwhoz-base-color-theme.json"
       }

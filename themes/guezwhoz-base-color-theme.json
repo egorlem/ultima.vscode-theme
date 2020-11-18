@@ -15,6 +15,7 @@
         "variable.language",
         "keyword.control",
         "keyword.operator",
+        "punctuation.definition.parameters",
       ],
       "settings": {
         "foreground": "#5fafd7"
@@ -76,7 +77,7 @@
         "support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#5fd7d7"
+        "foreground": "#dadada"
       }
     },
     {
@@ -190,7 +191,7 @@
         "keyword.other.unit",
       ],
       "settings": {
-        "foreground": "#d7d787"
+        "foreground": "#afafd7" // "#d7d787"
       }
     },
     {
@@ -225,10 +226,12 @@
         "source.powershell variable.other.member",
         "entity.name.operator.custom-literal",
         "entity.other.attribute-name.pseudo-class",
-        "string.interpolated.dollar.shell"
+        "string.interpolated.dollar.shell",
+        "meta.brace.round",
+        "punctuation.definition.arguments"
       ],
       "settings": {
-        "foreground": "#afafff"
+        "foreground": "#5fd7d7"
       }
     },
     {
@@ -275,22 +278,15 @@
         "constant.other.color.rgb-value",
         "constant.other.rgb-value",
         "support.constant.color",
-        "keyword.operator.ternary",
-        "keyword.operator.relational",
-        "keyword.operator.assignment",
-        "keyword.operator.comparison",
-        "keyword.operator.logical",
-        "keyword.operator.arithmetic",
-        "text.html.markdown",
       ],
       "settings": {
-        "foreground": "#dadada"
+        "foreground": "#afd7af" // "#d7d7af" // "#dadada"
       }
     },
     {
       "name": "Regular Expressions (Group 8)",
       "scope": [
-        "string.regexp"
+        "string.regexp",
       ],
       "settings": {
         "foreground": "#dadada"
