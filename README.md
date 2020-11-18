@@ -1,6 +1,6 @@
 # Guezwhoz schema for Visual Studio Code
 
-#### A Visual Studio Code dark theme based on cool palette.
+#### A Visual Studio Code dark theme based on cool color palette.
 
 ---
 
