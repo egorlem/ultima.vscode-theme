@@ -1,14 +1,15 @@
 # Change Log
 
-<<<<<<< HEAD
-## 1.2.0 (2020-11-09) 
+## 1.2.0 (2020-11-19)
+
 - New syntax style
-=======
+
 ## 1.1.8 (2020-11-18)
+
 - Change magenta color
->>>>>>> caaa2e157e370d268c9aa57c042a497c6335f980
 
 ## 1.1.7 (2020-11-09)
+
 - Add git status color scheme
 - Add interface colors
 - Add single colors for .json, .yaml, ini
