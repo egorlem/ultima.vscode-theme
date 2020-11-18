@@ -28,7 +28,7 @@
     "themes": [
       {
         "id": "Guezwhoz",
-        "label": "Guezwhoz (Main/DEV)",
+        "label": "Guezwhoz (Main)",
         "uiTheme": "vs-dark",
         "path": "./themes/guezwhoz-base-color-theme.json"
       }

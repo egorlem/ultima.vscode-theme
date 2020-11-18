@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.2.0 (2020-11-09) 
+- New syntax style
+
 ## 1.1.7 (2020-11-09)
 - Add git status color scheme
 - Add interface colors

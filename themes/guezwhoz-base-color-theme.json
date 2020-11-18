@@ -191,7 +191,7 @@
         "keyword.other.unit",
       ],
       "settings": {
-        "foreground": "#afafd7" // "#d7d787"
+        "foreground": "#afafd7"
       }
     },
     {
@@ -280,7 +280,7 @@
         "support.constant.color",
       ],
       "settings": {
-        "foreground": "#afd7af" // "#d7d7af" // "#dadada"
+        "foreground": "#afd7af"
       }
     },
     {
@@ -400,8 +400,8 @@
     "statusBar.noFolderBackground": "#1c1c1c",
     "statusBar.noFolderForeground": "#eeeeee",
     "statusBar.noFolderBorder": "#303030",
-    "statusBar.debuggingBackground": "#005f5f",
-    "statusBar.debuggingBorder": "#005f5f",
+    "statusBar.debuggingBackground": "#00445f",
+    "statusBar.debuggingBorder": "#00445f",
     "activityBarBadge.background": "#005f5f",
     "sideBarTitle.foreground": "#eeeeee",
     "editorLineNumber.foreground": "#626262",
