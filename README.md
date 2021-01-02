@@ -52,6 +52,9 @@ You can also install a Theme from [Releases page](https://github.com/guesswhozzz
   "editor.fontLigatures": true
 }
 ```
+### Extra 
+
+You can also find this color scheme for other development tools in [special repository](https://github.com/guesswhozzz/guezwhoz-scheme)
 
 ---
 
