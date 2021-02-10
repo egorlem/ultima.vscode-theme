@@ -16,6 +16,7 @@
         "keyword.control",
         "keyword.operator",
         "punctuation.definition.parameters",
+        "punctuation.accessor.optional"
       ],
       "settings": {
         "foreground": "#5fafd7"
@@ -27,6 +28,7 @@
         "storage",
         "storage.modifier",
         "punctuation.section.embedded",
+        "punctuation.decorator.ts",
       ],
       "settings": {
         "foreground": "#5fafd7"
@@ -38,6 +40,15 @@
         "entity.name.tag",
         "meta.tag.sgml",
         "markup.deleted.git_gutter"
+      ],
+      "settings": {
+        "foreground": "#5fafd7"
+      }
+    },
+    {
+      "name": "TypeScript decorator",
+      "scope": [
+        "meta.decorator.ts variable.other.readwrite.ts"
       ],
       "settings": {
         "foreground": "#5fafd7"
@@ -115,7 +126,7 @@
       }
     },
     {
-      "name": "Class (Group 3)",
+      "name": "Class (Group 3) Classes and Types",
       "scope": [
         "entity.name",
         "support.type",
@@ -131,7 +142,9 @@
         "entity.other.attribute-name.class",
         "support.variable.property.js",
         "support.constant.json.js",
-        "keyword.operator.type.annotation"
+        "keyword.operator.type.annotation",
+        "keyword.operator.optional.ts"
+        //     "meta.type.parameters punctuation.definition.typeparameters"
       ],
       "settings": {
         "foreground": "#87d7af"
@@ -262,7 +275,6 @@
       "scope": [
         "punctuation",
         "meta.property-list",
-        "meta.brace.round.ts"
       ],
       "settings": {
         "foreground": "#9e9e9e"
@@ -306,7 +318,8 @@
       "scope": [
         "invalid",
         "invalid.illegal",
-        "markup.deleted"
+        "markup.deleted",
+        "storage.type.class.jsdoc.property.specific"
       ],
       "settings": {
         "foreground": "#ff5f5f"
@@ -408,6 +421,9 @@
     "editorBracketMatch.background": "#303030",
     "editorBracketMatch.border": "#5fafd7",
     "editor.wordHighlightBackground": "#303030",
+    "editor.findMatchBackground": "#005f5f",
+    "editor.findMatchHighlightBackground": "#585858",
+    "editor.findRangeHighlightBackground": "#000000",
     "terminal.ansiBlack": "#080808",
     "terminal.ansiRed": "#ff5f5f",
     "terminal.ansiGreen": "#87d7af",
