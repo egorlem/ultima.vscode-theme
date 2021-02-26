@@ -16,7 +16,8 @@
         "keyword.control",
         "keyword.operator",
         "punctuation.definition.parameters",
-        "punctuation.accessor.optional"
+        "punctuation.accessor.optional",
+        "punctuation.decorator.ts"
       ],
       "settings": {
         "foreground": "#5fafd7"
@@ -27,8 +28,7 @@
       "scope": [
         "storage",
         "storage.modifier",
-        "punctuation.section.embedded",
-        "punctuation.decorator.ts",
+        "punctuation.section.embedded"
       ],
       "settings": {
         "foreground": "#5fafd7"
@@ -40,15 +40,6 @@
         "entity.name.tag",
         "meta.tag.sgml",
         "markup.deleted.git_gutter"
-      ],
-      "settings": {
-        "foreground": "#5fafd7"
-      }
-    },
-    {
-      "name": "TypeScript decorator",
-      "scope": [
-        "meta.decorator.ts variable.other.readwrite.ts"
       ],
       "settings": {
         "foreground": "#5fafd7"
@@ -143,8 +134,7 @@
         "support.variable.property.js",
         "support.constant.json.js",
         "keyword.operator.type.annotation",
-        "keyword.operator.optional.ts"
-        //     "meta.type.parameters punctuation.definition.typeparameters"
+        "keyword.operator.optional.ts",
       ],
       "settings": {
         "foreground": "#87d7af"
@@ -156,6 +146,15 @@
         "markdown.heading",
         "markup.heading | markup.heading entity.name",
         "markup.heading.markdown punctuation.definition.heading.markdown"
+      ],
+      "settings": {
+        "foreground": "#87d7af"
+      }
+    },
+    {
+      "name": "TypeScript punctuation special",
+      "scope": [
+        "comment.line.triple-slash.directive.ts punctuation.definition.comment.ts",
       ],
       "settings": {
         "foreground": "#87d7af"
@@ -258,7 +257,7 @@
         "comment",
       ],
       "settings": {
-        "foreground": "#808080"
+        "foreground": "#8a8a8a"
       }
     },
     {
@@ -267,7 +266,7 @@
         "string.other.link.description.title.markdown"
       ],
       "settings": {
-        "foreground": "#808080"
+        "foreground": "#8a8a8a"
       }
     },
     {
@@ -346,27 +345,32 @@
       }
     },
     {
+      "name": "JSDoc",
       "scope": [
-        "punctuation.definition.bracket.curly"
+        "punctuation.definition.bracket.curly",
+        "entity.name.type.instance.jsdoc"
       ],
       "settings": {
-        "foreground": "#87d7af"
+        "foreground": "#87d7afb5"
       }
     },
     {
+      "name": "JSDoc",
       "scope": [
-        "punctuation.definition.block.tag.jsdoc"
+        "punctuation.definition.block.tag.jsdoc",
+        "storage.type.class.jsdoc"
       ],
       "settings": {
-        "foreground": "#5fafd7"
+        "foreground": "#5fafd7d5"
       }
     },
     {
+      "name": "JSDoc",
       "scope": [
         "variable.other.jsdoc"
       ],
       "settings": {
-        "foreground": "#87d7d7"
+        "foreground": "#dadadad5"
       }
     },
     {
