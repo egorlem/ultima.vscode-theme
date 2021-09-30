@@ -11,7 +11,7 @@
   ],
   "repository": {
     "todo-keyword": {
-      "match": "(?<=// )(TODO|todo)|@TODO|@todo|(?<=[/\\*|\\*] )(TODO|todo)",
+      "match": "(?<=// )(TODO|todo) |@TODO|@todo|(?<=[/\\*|\\*] )(TODO|todo)|TODO(?=:)",
       "name": "keyword.todo"
     }
   }
