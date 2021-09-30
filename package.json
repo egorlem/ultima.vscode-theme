@@ -39,6 +39,23 @@
         "label": "Guezwhoz (icons)",
         "path": "./fileicons/guezwhoz-icon-theme.json"
       }
+    ],
+    "grammars": [
+      {
+        "path": "./syntaxes/injection.json",
+        "scopeName": "todo-comment.injection",
+        "injectTo": [
+          "source.js",
+          "source.jsx",
+          "source.ts",
+          "source.tsx",
+          "source.html",
+          "source.php",
+          "source.css",
+          "source.scss",
+          "source.c"
+        ]
+      }
     ]
   },
   "bugs": {

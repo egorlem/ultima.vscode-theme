@@ -306,7 +306,8 @@
       "scope": [
         "invalid",
         "invalid.illegal",
-        "markup.deleted"
+        "markup.deleted",
+        "keyword.todo",
       ],
       "settings": {
         "foreground": "#ff5f5f"
