@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.2.1 (2021-10-03)
+
+- Add highlighting for TODO comments 
+
 ## 1.2.0 (2020-11-19)
 
 - New syntax style
