@@ -1,4 +1,4 @@
-# Guezwhoz schema for Visual Studio Code
+# 021011.vscode - dark theme for Visual Studio Code
 
 #### A Visual Studio Code dark theme based on cool color palette.
 
@@ -35,7 +35,7 @@ You can also install a Theme from [Releases page](https://github.com/guesswhozzz
 
 ### For ZSH users
 
-> I recommend installing the [guezwhoz-zsh-theme](https://github.com/guesswhozzz/guezwhoz-zshell) for zsh. This theme turns your terminal and code editor into a single workspace.
+> I recommend installing the [guezwhoz-zsh-theme](https://github.com/guesswhozzz/021011.zsh-theme) for zsh. This theme turns your terminal and code editor into a single workspace.
 
 ### Setings.json
 
@@ -52,10 +52,6 @@ You can also install a Theme from [Releases page](https://github.com/guesswhozzz
   "editor.fontLigatures": true
 }
 ```
-### Extra 
-
-You can also find this color scheme for other development tools in [special repository](https://github.com/guesswhozzz/guezwhoz-scheme)
-
 ---
 
 Changelog [CHANGELOG.md](https://github.com/guesswhozzz/guezwhoz-vscode-theme/blob/0fe85b325787278f277bb6af028c5cd7c670ccb1/CHANGELOG.md)
