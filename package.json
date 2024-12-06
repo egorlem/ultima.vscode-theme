@@ -27,34 +27,10 @@
   "contributes": {
     "themes": [
       {
-        "id": "Guezwhoz",
-        "label": "Guezwhoz (Main)",
+        "id": "Ultima Workspace (GWZ)",
+        "label": "Guezwhoz",
         "uiTheme": "vs-dark",
-        "path": "./themes/guezwhoz-base-color-theme.json"
-      }
-    ],
-    "iconThemes": [
-      {
-        "id": "Guezwhoz (icons-set)",
-        "label": "Guezwhoz (icons)",
-        "path": "./fileicons/guezwhoz-icon-theme.json"
-      }
-    ],
-    "grammars": [
-      {
-        "path": "./syntaxes/injection.json",
-        "scopeName": "todo-comment.injection",
-        "injectTo": [
-          "source.js",
-          "source.jsx",
-          "source.ts",
-          "source.tsx",
-          "source.html",
-          "source.php",
-          "source.css",
-          "source.scss",
-          "source.c"
-        ]
+        "path": "./themes/gwz.json"
       }
     ]
   },
