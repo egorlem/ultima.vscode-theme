@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/guesswhozzz/guezwhoz-vscode-theme.git"
+    "url": "https://github.com/egorlem/guezwhoz.vscode-theme"
   },
   "keywords": [
     "Theme",
@@ -35,7 +35,7 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/guesswhozzz/guezwhoz-vscode-theme/issues",
+    "url": "https://github.com/egorlem/guezwhoz.vscode-theme/issues",
     "email": "guezwhoz@gmail.com"
   },
   "homepage": "https://github.com/guesswhozzz/guezwhoz-vscode-theme/blob/master/README.md"
