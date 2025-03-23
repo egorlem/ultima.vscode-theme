@@ -1,9 +1,9 @@
 {
-  "name": "guezwhoz-vscode-theme",
-  "displayName": "Guezwhoz Theme",
-  "description": "Dark vscode theme based on cool palette.",
+  "name": "ultima-vscode-theme",
+  "displayName": "Ultima Theme",
+  "description": "WCAG 2.1 AA balanced dark theme for VS Code, built in colors with analogous harmony.",
   "publisher": "guezwhoz-schema",
-  "version": "1.2.1",
+  "version": "2.2.0",
   "license": "MIT",
   "engines": {
     "vscode": "^1.50.0"
@@ -18,14 +18,28 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/egorlem/guezwhoz.vscode-theme"
+    "url": "https://github.com/egorlem/ultima.zsh-theme"
+  },
+  "homepage": "https://github.com/egorlem/ultima.zsh-theme",
+  "pricing": "Free",
+  "bugs": {
+    "url": "https://github.com/egorlem/ultima.zsh-theme/issues",
+    "email": "guezwhoz@gmail.com"
   },
   "keywords": [
     "Theme",
-    "Dark Theme"
+    "Dark theme",
+    "Color blind safe theme",
+    "WCAG 2.1 AA"
   ],
   "contributes": {
     "themes": [
+      {
+        "id": "Ultima Workspace (Balanced)",
+        "label": "Ultima",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ultima.json"
+      },
       {
         "id": "Ultima Workspace (GWZ)",
         "label": "Guezwhoz",
@@ -33,10 +47,5 @@
         "path": "./themes/gwz.json"
       }
     ]
-  },
-  "bugs": {
-    "url": "https://github.com/egorlem/guezwhoz.vscode-theme/issues",
-    "email": "guezwhoz@gmail.com"
-  },
-  "homepage": "https://github.com/guesswhozzz/guezwhoz-vscode-theme/blob/master/README.md"
+  }
 }
