@@ -67,13 +67,21 @@ All colors were selected using a [special tool from Adobe](https://helpx.adobe.c
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorStyle": "line",
   "editor.fontFamily": "Fira Code, Inconsolata",
-  "editor.fontLigatures": true
-}
-```
-### Extra
+  "editor.fontLigatures": true,
 
-> **The package includes the achive [guezwhoz.vscode-theme](https://github.com/egorlem/guezwhoz.vscode-theme)**
+	"debug.console.fontFamily": "Fira Code, Inconsolata",
+	"debug.console.fontSize": 14,
+	"debug.console.lineHeight": 20,
+
+}
+
+```
+---
+
+## License
+
+This project is licensed under the __MIT License__. See the [LICENSE](https://github.com/egorlem/ultima.vscode-theme/blob/88f6c77b4beb34819798576150d1d47224d5e742/LICENSE) file for details.
 
 ---
 
-License [MIT](https://github.com/egorlem/ultima.workspace/blob/66aa36cca06a6806cc18dab8a942f2b24db5f932/packages/ultima.vscode-theme/LICENSE) · [Egor Lem](https://egorlem.com/)
+Maintained by [Egor Lem](https://egorlem.com/)
