@@ -68,11 +68,9 @@ All colors were selected using a [special tool from Adobe](https://helpx.adobe.c
   "editor.cursorStyle": "line",
   "editor.fontFamily": "Fira Code, Inconsolata",
   "editor.fontLigatures": true,
-
-	"debug.console.fontFamily": "Fira Code, Inconsolata",
-	"debug.console.fontSize": 14,
-	"debug.console.lineHeight": 20,
-
+  "debug.console.fontFamily": "Fira Code, Inconsolata",
+  "debug.console.fontSize": 14,
+  "debug.console.lineHeight": 20,
 }
 
 ```
